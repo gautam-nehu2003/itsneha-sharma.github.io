@@ -79,20 +79,18 @@
   <section class="projects" id="projects">
     <h2>Projects</h2>
     <div class="project">
-  <h3>Centralized Log Monitoring with ELK Stack</h3>
-  <p>
-    Implemented a centralized log monitoring solution using the ELK Stack (Elasticsearch, Logstash, and Kibana) to collect, process, and visualize logs from heterogeneous sources including Windows servers, Linux systems, and network devices. Configured Filebeat, NXLog, and Rsyslog for efficient agent-based log forwarding.  
-  </p>
-  <p>
-    Developed custom Logstash pipelines to parse, filter, and enrich log data for meaningful insights. Designed and deployed interactive Kibana dashboards for real-time monitoring, anomaly detection, and trend analysis of security events.  
-  </p>
-  <p>
-    Automated alerting using Watcher and integrated anomaly detection to proactively identify suspicious activity, failed logins, configuration changes, and potential security threats. Ensured scalability, high availability, and secure communication across the logging infrastructure.  
-  </p>
-  <p>
-    This project enhanced SOC efficiency, improved incident response times, and provided actionable insights for proactive cybersecurity measures.
-  </p>
-</div>
+      <h3>SIEM Log Monitoring & Threat Detection</h3>
+      <p>
+        Designed and implemented a simulated SIEM environment using ELK Stack and Splunk for real-time threat detection. 
+        Configured data pipelines, created detection rules for suspicious PowerShell usage and brute-force attempts, 
+        and visualized findings through dashboards.
+      </p>
+      <ul>
+        <li>Integrated logs from Sysmon, Linux auth, and firewall sources via Filebeat, Rsyslog, and NXLog.</li>
+        <li>Developed detection logic and correlation rules for event monitoring.</li>
+        <li>Built real-time dashboards in Kibana for proactive incident visualization.</li>
+      </ul>
+    </div>
 
   </section>
 
